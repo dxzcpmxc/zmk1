@@ -2,7 +2,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-&nice_view_spi { cs-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>; };
+&nice_view_spi {
+    cs-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>;
+};
 
 / {
     behaviors {
