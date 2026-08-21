@@ -13,13 +13,10 @@
             #binding-cells = <0>;
             tapping-term-ms = <250>;
             bindings = <&kp LSHFT>, <&kp CAPS>;
-
-            label = "caps";
         };
 
         hold: hold {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLD";
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
